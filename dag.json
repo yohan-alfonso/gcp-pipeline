@@ -1,0 +1,14 @@
+{
+    "dag_name": "DAG_prueba",
+    "project_id": "project-prod-yah",
+    "staging": {
+        "dataset_name": "stagin",
+        "table_name": "tabla_prueba"
+    },
+    "raw": {
+        "delta_bucket": "datalake_prod",
+        "consolidate_bucket": "datalake_cons_prod",
+        "dataset_name": "RAW",
+        "table_name": "tabla_prueba_raw"
+    }
+}
