@@ -3,12 +3,14 @@
 Este repositorio contiene un pipeline ETL usando Cloud Storage, Clous functions, dataflow, composer y bigquery
 
 
-1- Lectura de archivos Json desde python con el fin de parametrizar
+a- Lectura de archivos Json desde python con el fin de parametrizar
 
-2- Configurar el punto uno para extracción de parametros desde cloud storage
+b- Prueba de parametrización
 
-3- Crear transaformaciones de desde dataflow
+c- Prueba de carga de archivo CSV en bigquery usando python
 
-4-Crear dags desde composer
+d- Carga de archivo CSV en Cloud storage con dataflow (Apache beam)
 
-5- Crear trigger desde Cloud datafusion para el append de nuevos valores.
+e- Carga de archivos CSV en big query con dataflow (Apache Beam)
+
+f - Desarrollo de Data para ejecutar el paso "e" (en proceso)
